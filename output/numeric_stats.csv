@@ -1,0 +1,9 @@
+Variable,Sample Size (n),Mean,Median,Mode,Min,Max,Range,Variance,Standard Deviation
+ai_confidence_percentage,1000,72.007,74.235,76.02,40.52,98.66,58.14,215.013,14.663
+answer_accuracy_percentage,1000,69.982,72.08,100,19.42,100,80.58,330.395,18.177
+confidence_gap,1000,2.025,2.115,-2.39,-15,24.75,39.75,88.665,9.416
+response_character_count,1000,429.022,423,725,50,799,749,49126.478,221.645
+trust_gap,1000,9.068,8.15,0,-40.96,63.3,104.26,248.965,15.779
+trust_pct,1000,79.05,82,100,18,100,82,312.182,17.669
+trust_score_out_of_10,1000,7.905,8.2,10,1.8,10,8.2,3.122,1.767
+verification_duration_mins,1000,14.84,11.05,0,0,45,45,230.503,15.182

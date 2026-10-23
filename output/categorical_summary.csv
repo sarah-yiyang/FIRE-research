@@ -1,0 +1,22 @@
+Variable,Sample Size (n),Unique values,Mode
+accuracy_band,1000,3,High (>75)
+ai_familiarity_level,1000,5,Beginner
+ai_model_name,1000,6,Gemini
+answer_detail_level,1000,4,Moderate
+belief_alignment_status,658,2,TRUE
+contains_hedging_words,1000,2,TRUE
+decision_importance,1000,4,High
+digital_literacy_score,1000,4,Low
+education_level,1000,5,PhD
+fact_check_method_used,628,8,Asked Colleague
+has_cited_sources,1000,2,TRUE
+includes_disclaimer,1000,2,TRUE
+overtrust,1000,2,FALSE
+performed_fact_check,1000,2,TRUE
+query_category,1000,12,recipe_cooking
+respondent_age_bracket,1000,6,35-44
+subject_matter_expertise,1000,2,FALSE
+trust_calibration_valid,1000,2,TRUE
+urgency_level,1000,4,Medium
+user_skepticism_category,1000,4,Moderate Trust
+verified,1000,2,TRUE

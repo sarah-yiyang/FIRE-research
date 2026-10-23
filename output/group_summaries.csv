@@ -1,0 +1,62 @@
+grouping,group,n,mean_trust_10,mean_accuracy,mean_ai_confidence,mean_trust_gap,mean_confidence_gap,pct_overtrust,mean_verify_mins
+ai_model_name,Claude,171,8.15,70.7,72.3,10.8,1.6,NA,16.9
+ai_model_name,GPT-4,156,8.14,71.2,72.8,10.2,1.6,NA,14.5
+ai_model_name,Llama,165,7.77,68.5,71.4,9.2,2.9,NA,14.6
+ai_model_name,Gemini,190,7.79,69.3,71.3,8.6,2,NA,14.8
+ai_model_name,Mistral,158,7.94,70.9,73,8.5,2,NA,12.3
+ai_model_name,ChatGPT-3.5,160,7.66,69.4,71.3,7.1,1.9,NA,15.7
+query_category,opinion_based,87,5.94,39.5,50,19.9,10.5,NA,14.9
+query_category,current_events,72,7.54,56.9,67.6,18.5,10.7,NA,12.6
+query_category,financial_advice,82,6.16,52.2,52.3,9.4,0.1,NA,16.2
+query_category,legal_advice,81,6.72,58.2,57.7,9,-0.4,NA,19.4
+query_category,creative_writing,63,8.11,72.9,70.3,8.3,-2.5,NA,12.7
+query_category,general_knowledge,82,8.3,75.2,76,7.8,0.8,NA,13.5
+query_category,scientific_facts,96,8.59,78.2,80.1,7.7,1.9,NA,16.4
+query_category,factual_historical,77,8.78,81.1,82,6.7,0.9,NA,13.4
+query_category,recipe_cooking,101,8.8,81.3,82.8,6.7,1.5,NA,12
+query_category,medical_advice,84,7.11,64.5,63.4,6.6,-1.1,NA,18.1
+query_category,math_calculation,92,9.47,89.7,91.9,5,2.2,NA,13.5
+query_category,technical_coding,83,9,85.3,84.6,4.7,-0.7,NA,15.1
+performed_fact_check,FALSE,372,8.55,73.5,75.2,11.9,1.7,NA,0
+performed_fact_check,TRUE,628,7.53,67.9,70.1,7.4,2.2,NA,23.6
+user_skepticism_category,Blind Trust,264,9.32,78.3,79.6,14.9,1.3,NA,0
+user_skepticism_category,Moderate Trust,366,8.69,74.8,77.1,12,2.2,NA,18.6
+user_skepticism_category,Skeptical,313,6.5,61.5,63.4,3.5,1.9,NA,21.4
+user_skepticism_category,Highly Skeptical,57,4.05,46.7,51.6,-6.2,4.9,NA,23.5
+education_level,Bachelors,195,8.05,70.5,72.9,10,2.4,NA,13.9
+education_level,Professional,189,7.88,69.3,72,9.5,2.7,NA,16.4
+education_level,PhD,218,7.89,69.8,71.9,9.1,2.1,NA,18.4
+education_level,Masters,202,7.82,69.6,71.2,8.6,1.6,NA,14.6
+education_level,High School,196,7.89,70.7,72.1,8.2,1.4,NA,10.5
+digital_literacy_score,Low,259,8.27,70.9,72.6,11.8,1.7,NA,15.2
+digital_literacy_score,Medium,249,8,69.6,71.7,10.4,2.1,NA,13.3
+digital_literacy_score,Expert,258,7.84,70.9,73.1,7.6,2.3,NA,14.5
+digital_literacy_score,High,234,7.46,68.5,70.5,6.2,2,NA,16.4
+ai_familiarity_level,First Time,195,8.27,69.6,70.7,13.1,1.1,NA,14.7
+ai_familiarity_level,Beginner,218,8.25,70,72.3,12.5,2.3,NA,13.6
+ai_familiarity_level,Expert,201,7.62,68.7,71.2,7.5,2.6,NA,16
+ai_familiarity_level,Intermediate,191,7.64,70.1,72,6.2,1.9,NA,15.9
+ai_familiarity_level,Advanced,195,7.71,71.5,73.8,5.6,2.3,NA,14.1
+subject_matter_expertise,TRUE,482,7.9,69.3,71.6,9.7,2.3,NA,15
+subject_matter_expertise,FALSE,518,7.91,70.6,72.4,8.5,1.8,NA,14.7
+has_cited_sources,TRUE,525,8.25,69.2,71.5,13.4,2.3,NA,13.8
+has_cited_sources,FALSE,475,7.52,70.9,72.6,4.3,1.7,NA,16
+contains_hedging_words,FALSE,488,8.17,70,72,11.7,2,NA,14.7
+contains_hedging_words,TRUE,512,7.65,69.9,72,6.6,2.1,NA,14.9
+includes_disclaimer,FALSE,491,7.97,69.7,72.1,10,2.4,NA,14.6
+includes_disclaimer,TRUE,509,7.84,70.3,72,8.1,1.7,NA,15.1
+answer_detail_level,Very Specific,237,8.03,70.2,73.3,10.1,3.1,NA,15.4
+answer_detail_level,Moderate,261,8.08,71.2,72.4,9.6,1.2,NA,13.3
+answer_detail_level,Vague,259,7.75,68.8,70.9,8.7,2.2,NA,16
+answer_detail_level,Specific,243,7.76,69.7,71.4,8,1.8,NA,14.7
+decision_importance,Low,261,8.5,70.5,72.2,14.4,1.6,NA,11.5
+decision_importance,Medium,248,7.99,68.5,70.8,11.5,2.3,NA,11.7
+decision_importance,High,264,7.95,71.9,73.9,7.6,2,NA,16.6
+decision_importance,Critical,227,7.08,68.8,71,1.9,2.1,NA,20
+urgency_level,Medium,266,8.05,70.4,72.4,10.2,2.1,NA,14
+urgency_level,High,252,7.85,68.9,71.4,9.6,2.5,NA,10.7
+urgency_level,None,221,7.86,70.2,72,8.4,1.9,NA,18.8
+urgency_level,Low,261,7.85,70.5,72.1,8,1.6,NA,16.3
+accuracy_band,Low (<=50),160,6.06,39.5,51.1,21.1,11.6,NA,15.8
+accuracy_band,Medium (51-75),401,7.55,64.3,67.6,11.2,3.3,NA,15.7
+accuracy_band,High (>75),439,8.9,86.3,83.6,2.7,-2.6,NA,13.7

@@ -1,0 +1,98 @@
+---
+title: "Mini Data Dive: Practicing with Your Topic"
+author: "Kellen Keys"
+date: "14-4-2026"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+install.packages("tidyverse")
+library(tidyverse)
+library(ggplot2)
+```
+
+## Step 1: Load Your Dataset
+
+```{r load-data}
+# Replace the code below with your dataset (an example is provided that uses a built-in dataset called mpg)
+ 
+#replace mpg with the name of your dataset
+data <- Charlotin_hallucination_cases
+
+glimpse(data)
+summary(data)
+```
+
+## Step 2: Explore & Clean the Data
+
+```{r data-cleaning}
+# Filter, mutate, or summarize your data. An example for the mpg data is provided below.
+
+# Example: Calculate average highway mileage by class
+summary_data <- data %>%
+  group_by(class) %>%
+  summarize(avg_hwy = mean(hwy, na.rm = TRUE))
+
+summary_data
+
+# Write your code to clean/organize the data on the next line
+
+```
+
+## Step 3: Visualize the Data
+
+```{r ggplot-example}
+# Create a plot using ggplot2. An example for the mpg dataset is provided below.
+
+#mpg dataset example
+ggplot(summary_data, aes(x = reorder(class, avg_hwy), y = avg_hwy)) +
+  geom_col(fill = "steelblue") +
+  labs(title = "Average Highway MPG by Car Class",
+       x = "Car Class",
+       y = "Average Highway MPG") +
+  coord_flip() +
+  theme_minimal()
+
+#your plot
+
+```
+
+## Step 4: Reflect
+
+Write a short reflection below:
+
+- What does your data show?
+- How is this relevant to your topic?
+- What questions or ideas did this exploration spark?
+- What challenges did you run into?
+
+```
+Your reflection here.
+```
+
+---
+
+## Bonus: Run a relevant statistical test on your data.
+
+```{r statistical test, eval=FALSE}
+# Develop a statistical model and run it to check for statistical relationships between the variables
+
+```
+
+---
+
+### Need help? Try:
+- The [R for Data Science book](https://r4ds.had.co.nz)
+- The ggplot2 and dplyr cheatsheets
+- Asking a classmate or your instructor!
+
+
+
+```{r}
+length(unique(haiid_dataset$V20))
+length(unique(haiid_dataset$V24))
+sum(!is.na(haiid_dataset$V24) & haiid_dataset$V24 != "")
+sum(!is.na(haiid_dataset$V25) & haiid_dataset$V25 != "")
+summary(haiid_dataset)
+```
+
